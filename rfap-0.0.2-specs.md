@@ -10,6 +10,19 @@
  - header and body length sent plain, everything else is encrypted
    - with own private key (authentication)
    - with recipient's public key (noone else can read)
+ - ? Unix file permissions
+
+## commands
+
+ - read file/directory
+ - get file/directory information
+ - write file
+ - touch file
+ - delete file/directory
+ - copy file/directory
+ - move file/directory
+ - ?create link
+ - ?set permissions
 
 ## packet standard
 
