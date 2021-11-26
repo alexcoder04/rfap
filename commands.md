@@ -3,10 +3,12 @@
 
 Note: every command is 4 bytes long.
 
-| command | hex value  | description                                           |
-|---------|------------|-------------------------------------------------------|
-| ping    | 0x00000000 | sign that connection is still alive                   |
-| read    | ...        | get file / directory content                          |
-| info    | ...        | get file/directory information (size, file type, ...) |
-| ...     | ...        | ...                                                   |
+| command        | hex value   | description                                           |
+|----------------|-------------|-------------------------------------------------------|
+| ping           | 00 00 00 00 | sign that connection is still alive                   |
+| file_info      | f0 01 00 00 | get file information (size, file type, ...)           |
+| file_read      | f0 02 00 00 | get file content                                      |
+| directory_info | d0 01 00 00 | get directory information                             |
+| directory_read | d0 02 00 00 | get directory content                                 |
+| ...            | ...         | ...                                                   |
 
