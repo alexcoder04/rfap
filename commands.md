@@ -7,11 +7,11 @@
 
 [Directory commands](#directory-commands)
 
-## Note
+## Notes
 
 Every command is 4 bytes long.
 
-The fourth byte indicates a question with 01 and an answer to a question with 02.
+The fourth byte indicates a request with 01 and an response with 02.
 
 
 
