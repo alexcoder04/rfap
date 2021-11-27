@@ -13,7 +13,7 @@ Every command is 4 bytes long.
 
 
 
-### Server commands
+## Server commands
 
 | command          | hex value   | description                                           |
 |------------------|-------------|-------------------------------------------------------|
@@ -22,7 +22,7 @@ Every command is 4 bytes long.
 
 
 
-### File commands
+## File commands
 
 | command          | hex value   | description                                           |
 |------------------|-------------|-------------------------------------------------------|
@@ -35,7 +35,7 @@ Every command is 4 bytes long.
 
 
 
-### Directory commands
+## Directory commands
 
 | command          | hex value   | description                                           |
 |------------------|-------------|-------------------------------------------------------|
