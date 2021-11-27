@@ -11,9 +11,12 @@ Note: every command is 4 bytes long.
 | file_delete      | f1 01 00 00 | deletes a file                                        |
 | file_create      | f1 02 00 00 | creates a file                                        |
 | file_copy        | f1 03 00 00 | copies a file                                         |
+| file_move        | f1 04 00 00 | moves a file                                          |
+| file_write       | f2 01 00 00 | edits a file                                          |
 | directory_info   | d0 01 00 00 | get directory information (size, ...)                 |
 | directory_read   | d0 02 00 00 | get directory content                                 |
 | directory_delete | d1 01 00 00 | deletes a directory                                   |
 | directory_create | d1 02 00 00 | creates a directory                                   |
 | directory_copy   | d1 03 00 00 | copies a directory                                    |
+| directory_move   | d1 04 00 00 | moves a directory                                     |
 
