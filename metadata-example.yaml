@@ -1,3 +1,13 @@
 
-FilePath: /file.txt
+# general
+Path: /file.txt
+Type: f # f=file, d=directory
+Modified: 1638014200 # in unixtime
+
+# files only
+FileSize: 8257 # in bytes
+
+# directories only
+DirectorySize: 87457 # in bytes, calculated and sent only if requested by client in the header
+ElementsNumber: 2
 
