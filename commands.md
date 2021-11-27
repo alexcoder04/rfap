@@ -11,6 +11,8 @@
 
 Every command is 4 bytes long.
 
+The fourth byte indicates a question with 01 and an answer to a question with 02.
+
 
 
 ## Server commands
@@ -18,6 +20,7 @@ Every command is 4 bytes long.
 | command          | hex value   | description                                           |
 |------------------|-------------|-------------------------------------------------------|
 | ping             | 00 00 00 00 | sign that connection is still alive                   |
+| disconnect       | 01 00 00 00 | disconnects a Client                                  |
 | info             | a0 01 00 00 | get file or directory info                            |
 
 
