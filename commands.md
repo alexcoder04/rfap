@@ -3,6 +3,8 @@
 
 Note: every command is 4 bytes long.
 
+[server commands](#server-commands)
+
 ## Server commands
 
 | command          | hex value   | description                                           |
