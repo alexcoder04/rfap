@@ -51,6 +51,7 @@ For full overview, see [commands.md](./commands.md)
 
  - For now, header and body are sent plain. The encryption will be included later.
  - Checksums are going to be implemented only in future releases, as well
+ - all integers are sent big-endian
 
 ### Header
 
