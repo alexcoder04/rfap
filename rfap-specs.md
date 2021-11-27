@@ -24,7 +24,7 @@ For full overview, see https://github.com/alexcoder04/rfap/blob/main/commands.md
  - read file/directory
  - get file/directory information
 
-### To be included later
+### Optional (for now)
 
  - write file
  - touch/create file
