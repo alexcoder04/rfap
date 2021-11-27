@@ -14,6 +14,7 @@
  - header and body length sent plain, everything else is encrypted
    - with own private key (authentication)
    - with recipient's public key (privacy)
+ - default port: `6700`
 
 ## Commands
 
