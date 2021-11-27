@@ -11,8 +11,8 @@ organizational information about the protocol. See
 ## Related projects (in progress)
 
  - https://github.com/alexcoder04/rfap-go-server - reference server implementation
- - https://github.com/alexcoder04/librfap - python library
- - https://github.com/BoettcherDasOriginal/rfab-cs-lib - c# library
+ - https://github.com/alexcoder04/librfap - Python library
+ - https://github.com/BoettcherDasOriginal/rfab-cs-lib - C# library
 
 ## Why did we start this project?
 
@@ -22,7 +22,7 @@ NFS is unencrypted.
 
 SMB is too complex.
 
-WebDAV maxes not much sense.
+WebDAV makes not much sense.
 
 SSHFS is for nerds.
 

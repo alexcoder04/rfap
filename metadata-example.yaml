@@ -1,4 +1,11 @@
 
+# YAML header metadata example
+# this file contains all possible fields which can be contradictory, so not a real-world example
+
+# errors
+ErrorCode: 0
+ErrorMessage: File or folder does not exist
+
 # general
 Path: /folder/file.txt
 Type: f # f=file, d=directory
@@ -10,5 +17,5 @@ FileType: text/plain # mime type
 
 # directories only
 DirectorySize: 87457 # in bytes, calculated and sent only if requested by client in the header
-ElementsNumber: 2
+ElementsNumber: 2 # calculated and sent only if requested by client in the header
 

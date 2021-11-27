@@ -17,11 +17,12 @@ The fourth byte indicates a request with 01 and an response with 02.
 
 ## Server commands
 
-| command    | hex value   | description                         |
-|------------|-------------|-------------------------------------|
-| ping       | 00 00 00 00 | sign that connection is still alive |
-| disconnect | 01 00 00 00 | disconnects a client                |
-| info       | a0 01 00 00 | get file or directory info          |
+| command    | hex value   | description                                 |
+|------------|-------------|---------------------------------------------|
+| ping       | 00 00 00 00 | sign that connection is still alive         |
+| disconnect | 01 00 00 00 | disconnects a client                        |
+| info       | a0 01 00 00 | get file or directory info                  |
+| error      | ff ff ff ff | something went wrong (e.g. unknown command) |
 
 
 
