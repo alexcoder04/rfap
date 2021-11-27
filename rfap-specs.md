@@ -54,11 +54,11 @@ For full overview, see [commands.md](./commands.md)
 
 ### Header
 
-| Field           | Length (bytes) | Value   | Description     |
-|-----------------|----------------|---------|-----------------|
-| command         | 4              | integer | type of packet  |
-| metadata        | variable       | string  | YAML data       |
-| header_checksum | 32             | bytes   | header checksum |
+| Field           | Length (bytes) | Value   | Description               |
+|-----------------|----------------|---------|---------------------------|
+| command         | 4              | integer | type of packet            |
+| metadata        | variable       | string  | YAML data (UTF-8 encoded) |
+| header_checksum | 32             | bytes   | header checksum           |
 
 ### Body
 
