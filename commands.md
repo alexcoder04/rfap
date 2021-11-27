@@ -2,7 +2,9 @@
 # List of commands
 
 [Server commands](#server-commands)
+
 [File commands](#file-commands)
+
 [Directory commands](#directory-commands)
 
 ## Note
