@@ -1,15 +1,17 @@
 
 # rfap - Reliable File Access Protocol
 
-General specification for a proof-of-concept network file protocol.
-
 This project is in a very early stage. We are still in the planning phase, so
 radical changes are to come.
+
+This repository contains documentation, specifications, overviews and
+organizational information about the protocol. See
+[related projects](#related-projects-in-progress) for actual implementations.
 
 ## Related projects (in progress)
 
  - https://github.com/alexcoder04/rfap-go-server - reference server implementation
- - https://github.com/alexcoder04/librfap - basic python library
+ - https://github.com/alexcoder04/librfap - python library
 
 ## Why did we start this project?
 
