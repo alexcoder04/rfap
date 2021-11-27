@@ -15,6 +15,8 @@ radical changes are to come.
 
 FTP is too old.
 
+NFS is unencrypted.
+
 SMB is too complex.
 
 WebDAV maxes not much sense.
