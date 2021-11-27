@@ -1,18 +1,26 @@
 
 # List of commands
 
-Note: every command is 4 bytes long.
+[Server commands](#server-commands)
+[File commands](#file-commands)
+[Directory commands](#directory-commands)
 
-[server commands](#server-commands)
+## Note
 
-## Server commands
+Every command is 4 bytes long.
+
+
+
+### Server commands
 
 | command          | hex value   | description                                           |
 |------------------|-------------|-------------------------------------------------------|
 | ping             | 00 00 00 00 | sign that connection is still alive                   |
 | info             | a0 01 00 00 | get file or directory info                            |
 
-## File commands
+
+
+### File commands
 
 | command          | hex value   | description                                           |
 |------------------|-------------|-------------------------------------------------------|
@@ -23,7 +31,9 @@ Note: every command is 4 bytes long.
 | file_move        | f1 04 00 00 | moves a file                                          |
 | file_write       | f2 01 00 00 | edits a file                                          |
 
-## Directory commands
+
+
+### Directory commands
 
 | command          | hex value   | description                                           |
 |------------------|-------------|-------------------------------------------------------|
