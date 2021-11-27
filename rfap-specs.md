@@ -1,26 +1,30 @@
 
 # 0.0.2
 
+## General notes
+
  - client-server model
    - client makes request to the server with a certain command
    - server responds
-   - example: "read file X" - "content of X"
-   - persietent connection, checking from time to time if client is alive
+   - example: "read file X" -> "content of X"
+   - persistent connection, checking from time to time if client is alive
  - multithreaded/multiprocessed
    - every connection runs on a separate thread/process
    - max number of threads -> max number of connected clients
  - header and body length sent plain, everything else is encrypted
    - with own private key (authentication)
-   - with recipient's public key (noone else can read)
+   - with recipient's public key (privacy)
 
 ## Commands
+
+For full overview, see https://github.com/alexcoder04/rfap/blob/main/commands.md
 
 ### Basic
 
  - read file/directory
  - get file/directory information
 
-### Later
+### To be included later
 
  - write file
  - touch/create file
@@ -40,18 +44,28 @@
 | data_length   | 4              | integer        | body length   |
 | data          | variable       | encrypted data | body          |
 
-### header
+#### Notes
+
+ - For now, header and body are sent plain. The encryption will be included later.
+
+### Header
 
 | Field           | Length (bytes) | Value   | Description     |
 |-----------------|----------------|---------|-----------------|
 | command         | 4              | integer | type of packet  |
-| metadata        | variable       | string  | YML             |
+| metadata        | variable       | string  | YAML data       |
 | header_checksum | 32             | bytes   | header checksum |
 
-### body
+### Body
 
 | Field         | Length (bytes) | Value       | Description   |
 |---------------|----------------|-------------|---------------|
 | body          | variable       | binary data | files, ...    |
 | body_checksum | 32             | bytes       | body checksum |
+
+## Versioning
+
+This protocol does not use semantic versioning. The version is always one whole
+number corresponding to the release tag on GitHub and the number sent in the
+first two bytes of a packet.
 
