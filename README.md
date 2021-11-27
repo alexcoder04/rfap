@@ -1,5 +1,5 @@
 
-# rfap - R(eliable?) File Access Protocol
+# rfap - Reliable File Access Protocol
 
 General specification for a proof-of-concept network file protocol.
 
