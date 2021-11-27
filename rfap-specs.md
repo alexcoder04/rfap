@@ -18,12 +18,14 @@
 
 ## Commands
 
-For full overview, see https://github.com/alexcoder04/rfap/blob/main/commands.md
+For full overview, see [commands.md](./commands.md)
 
 ### Basic
 
  - read file/directory
  - get file/directory information
+ - ping (connection is alive)
+ - disconnect
 
 ### Optional (for now)
 
@@ -39,7 +41,7 @@ For full overview, see https://github.com/alexcoder04/rfap/blob/main/commands.md
 
 | Field         | Length (bytes) | Value          | Description   |
 |---------------|----------------|----------------|---------------|
-| version       | 2              | binary integer | rfap version  |
+| version       | 2              | integer        | rfap version  |
 | header_length | 4              | integer        | header length |
 | header        | variable       | encrypted data | header        |
 | data_length   | 4              | integer        | body length   |

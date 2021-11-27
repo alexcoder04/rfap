@@ -1,11 +1,12 @@
 
 # general
-Path: /file.txt
+Path: /folder/file.txt
 Type: f # f=file, d=directory
 Modified: 1638014200 # in unixtime
 
 # files only
 FileSize: 8257 # in bytes
+FileType: text/plain # mime type
 
 # directories only
 DirectorySize: 87457 # in bytes, calculated and sent only if requested by client in the header

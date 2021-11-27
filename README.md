@@ -11,3 +11,15 @@ radical changes are to come.
  - https://github.com/alexcoder04/rfap-go-server - reference server implementation
  - https://github.com/alexcoder04/librfap - basic python library
 
+## Why did we start this project?
+
+FTP is too old.
+
+SMB is too complex.
+
+WebDAV maxes not much sense.
+
+SSHFS is for nerds.
+
+*So what is the best way to share files?*
+
