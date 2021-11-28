@@ -42,9 +42,9 @@ For full overview, see [commands.md](./commands.md)
 | Field         | Length (bytes) | Value          | Description   |
 |---------------|----------------|----------------|---------------|
 | version       | 2              | integer        | rfap version  |
-| header_length | 3              | integer        | header length |
+| header_length | 4              | integer        | header length |
 | header        | variable       | encrypted data | header        |
-| data_length   | 3              | integer        | body length   |
+| data_length   | 4              | integer        | body length   |
 | data          | variable       | encrypted data | body          |
 
 #### Notes
