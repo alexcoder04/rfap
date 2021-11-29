@@ -11,7 +11,7 @@
 
 Every command is 4 bytes long.
 
-The fourth byte indicates a request with 01 and an response with 02.
+The fourth byte indicates a request with 00 and an response with 01.
 
 
 
