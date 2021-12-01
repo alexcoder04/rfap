@@ -1,14 +1,15 @@
 
 # rfap - Reliable File Access Protocol
 
-This project is in a very early stage. We are still in the planning phase, so
-radical changes are to come.
+**This project is in pre-alpha stage, so expect radical changes to come.**
 
-This repository contains documentation, specifications, overviews and
-organizational information about the protocol. See
+This repository contains documentation, specifications, overviews,
+organizational information and general discussions about the protocol. See
 [related projects](#related-projects-in-progress) for actual implementations.
 
 ## Related projects (in progress)
+
+Note: none of these projects has reached a stable release so far.
 
  - https://github.com/alexcoder04/rfap-go-server - reference server implementation
  - https://github.com/alexcoder04/librfap - Python library

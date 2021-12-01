@@ -9,11 +9,8 @@
 
 ## Notes
 
-Every command is 4 bytes long.
-
-The fourth byte indicates a request with 00 and an response with 01.
-
-
+ - Every command is 4 bytes long.
+ - The fourth byte indicates a request with 00 and an response with 01.
 
 ## Server commands
 
@@ -23,8 +20,6 @@ The fourth byte indicates a request with 00 and an response with 01.
 | disconnect | 01 00 00 00 | disconnects a client                        |
 | info       | a0 01 00 00 | get file or directory info                  |
 | error      | ff ff ff ff | something went wrong (e.g. unknown command) |
-
-
 
 ## File commands
 
@@ -36,8 +31,6 @@ The fourth byte indicates a request with 00 and an response with 01.
 | file_copy   | f1 03 00 00 | copies a file    |
 | file_move   | f1 04 00 00 | moves a file     |
 | file_write  | f2 01 00 00 | edits a file     |
-
-
 
 ## Directory commands
 
