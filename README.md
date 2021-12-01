@@ -13,6 +13,7 @@ organizational information about the protocol. See
  - https://github.com/alexcoder04/rfap-go-server - reference server implementation
  - https://github.com/alexcoder04/librfap - Python library
  - https://github.com/BoettcherDasOriginal/rfab-cs-lib - C# library
+ - https://github.com/alexcoder04/rfap-pycli - Python CLI client based on librfap
 
 ## Why did we start this project?
 
