@@ -6,6 +6,9 @@
 ErrorCode: 0
 ErrorMessage: File or folder does not exist
 
+# client requests
+RequestDetails: [DirectorySize, ElementsNumber]
+
 # general
 Path: /folder/file.txt
 Type: f # f=file, d=directory
