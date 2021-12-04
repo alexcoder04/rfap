@@ -13,6 +13,8 @@ RequestDetails: [DirectorySize, ElementsNumber]
 Path: /folder/file.txt
 Type: f # f=file, d=directory
 Modified: 1638014200 # in unixtime
+PacketsTotal: 1 # large files are split into multiple packets
+PacketNumber: 1 # these two entries give information about that
 
 # files only
 FileSize: 8257 # in bytes
