@@ -10,7 +10,7 @@ organizational information and general discussions about the protocol. See
 ## Protocol specifications (in progress)
 
 - for general protocol specifications, see [specification.md](./specification.md)
-- for YML metadata specification, see [metadata-example.yaml](./metadata-example.yaml)
+- for YML metadata specification, see [metadata-example.yml](./metadata-example.yml)
 - for a full overview of commands, see [commands.md](./commands.md)
 - for a full overview of errors, see [errors.md](./errors.md)
 
