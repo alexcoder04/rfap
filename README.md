@@ -7,6 +7,13 @@ This repository contains documentation, specifications, overviews,
 organizational information and general discussions about the protocol. See
 [related projects](#related-projects-in-progress) for actual implementations.
 
+## Protocol specifications (in progress)
+
+- for general protocol specifications, see [specification.md](./specification.md)
+- for YML metadata specification, see [metadata-example.yaml](./metadata-example.yaml)
+- for a full overview of commands, see [commands.md](./commands.md)
+- for a full overview of errors, see [errors.md](./errors.md)
+
 ## Related projects (in progress)
 
 Note: none of these projects has reached a stable release so far.
