@@ -3,7 +3,11 @@
 
 # rfap - Reliable File Access Protocol
 
-**This project is in pre-alpha stage, so expect radical changes to come.**
+[![GitHub release](https://img.shields.io/github/v/release/alexcoder04/rfap-go-server?include_prereleases)](https://github.com/alexcoder04/rfap-go-server/releases/latest)
+[![GitHub issues](https://img.shields.io/github/issues/alexcoder04/rfap-go-server)](https://github.com/alexcoder04/rfap-go-server/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors-anon/alexcoder04/rfap-go-server)](https://github.com/alexcoder04/rfap-go-server/graphs/contributors)
+
+**This project is in alpha stage, so expect radical changes to come.**
 
 This repository contains documentation, specifications, overviews,
 organizational information and general discussions about the protocol. See
