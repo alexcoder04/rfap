@@ -63,7 +63,6 @@ For full overview, see [commands.md](./commands.md)
 
 # Versioning
 
-This protocol does not use semantic versioning. The version is always one whole
-number corresponding to the release tag on GitHub and the number sent in the
-first two bytes of a packet.
+The version always consists of two numbers: the major and the minor version.
+These correspond to the release tag and the two bytes sent in every packet.
 
