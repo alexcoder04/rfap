@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 67.733332 67.733335"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="rfap_icon_demo2.svg"
+   inkscape:export-filename="C:\Users\Horizon cs\Pictures\Inkscape\rfap_icon_demo2.png"
+   inkscape:export-xdpi="96.000008"
+   inkscape:export-ydpi="96.000008"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="2.9960938"
+     inkscape:cx="128.33377"
+     inkscape:cy="128"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="17.516077"
+       y="68.57358"
+       width="486.72335"
+       height="351.81228"
+       id="rect9354" />
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#00bfff;stroke-width:2.01003"
+       id="path846"
+       cx="33.866665"
+       cy="33.866665"
+       r="33.866665" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458556,0,0,0.26458398,2.3406772,-4.0422229)"
+       id="text9352"
+       style="font-size:112px;line-height:1.25;font-family:Offside;-inkscape-font-specification:Offside;white-space:pre;shape-inside:url(#rect9354);fill:#f5f5f5"><tspan
+         x="17.515625"
+         y="171.49609"
+         id="tspan16813"><tspan
+           style="font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift"
+           id="tspan16811">rfap</tspan></tspan></text>
+  </g>
+</svg>

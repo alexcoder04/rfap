@@ -1,4 +1,6 @@
 
+![logo](./assets/rfap_icon_v1.svg)
+
 # rfap - Reliable File Access Protocol
 
 **This project is in pre-alpha stage, so expect radical changes to come.**
