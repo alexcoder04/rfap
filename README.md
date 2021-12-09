@@ -12,7 +12,7 @@ organizational information and general discussions about the protocol. See
 - for general protocol specifications, see [specification.md](./specification.md)
 - for YML metadata specification, see [metadata-example.yml](./metadata-example.yml)
 - for a full overview of commands, see [commands.md](./commands.md)
-- for a full overview of errors, see [errors.md](./errors.md)
+- for a full overview of error codes, see [errors.md](./errors.md)
 
 ## Related projects (in progress)
 
@@ -22,6 +22,10 @@ Note: none of these projects has reached a stable release so far.
  - https://github.com/alexcoder04/librfap - Python library
  - https://github.com/BoettcherDasOriginal/rfap-cs-lib - C# library
  - https://github.com/alexcoder04/rfap-pycli - Python CLI client based on librfap
+
+## Contributing
+
+Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more information.
 
 ## Why did we start this project?
 

@@ -53,7 +53,7 @@ For full overview, see [commands.md](./commands.md)
  - length is given in bytes
  - all integers are sent big-endian
  - all strings are encoded in UTF-8
- - for YML metadata specification, see [metadata-example.yaml](./metadata-example.yaml)
+ - for YML metadata specification, see [metadata-example.yml](./metadata-example.yml)
  - in future, header and body sections will be encrypted (for now plain)
  - checksums are to be implemeted in a future release, as well
  - maximal length of the header/body section is each 16MB
