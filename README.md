@@ -1,7 +1,7 @@
-
+<div align="center">
 ![logo](./assets/rfap_icon_v1.svg)
-
-# rfap - Reliable File Access Protocol
+</div>
+<h1 align="center">rfap - Reliable File Access Protocol</h1>
 
 [![GitHub release](https://img.shields.io/github/v/release/alexcoder04/rfap?include_prereleases)](https://github.com/alexcoder04/rfap/releases/latest)
 [![GitHub issues](https://img.shields.io/github/issues/alexcoder04/rfap)](https://github.com/alexcoder04/rfap/issues)
