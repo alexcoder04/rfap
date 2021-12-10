@@ -1,5 +1,5 @@
 <div align="center">
- <img src="./assets/rfap_icon_v1.svg" width="100%" height="auto">
+ <img src="./assets/rfap_icon_v1.svg" width="30%" height="auto">
 </div>
 <h1 align="center">Reliable File Access Protocol</h1>
 
