@@ -8,4 +8,5 @@
 | 2    | unknown           |
 | 3    | invalid_command   |
 | 4    | invalid_file_type |
+| 5    | access denied     |
 
