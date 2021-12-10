@@ -8,12 +8,13 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
-   sodipodi:docname="rfap_icon_demo2.svg"
-   inkscape:export-filename="C:\Users\Horizon cs\Pictures\Inkscape\rfap_icon_demo2.png"
-   inkscape:export-xdpi="96.000008"
-   inkscape:export-ydpi="96.000008"
+   sodipodi:docname="rfap_icon_v1.svg"
+   inkscape:export-filename="C:\Users\Horizon cs\Pictures\Inkscape\rfap_icon_v1.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
@@ -23,34 +24,57 @@
      borderopacity="1"
      inkscape:pageshadow="0"
      inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
+     inkscape:pagecheckerboard="false"
      inkscape:document-units="mm"
      showgrid="false"
      units="px"
-     inkscape:zoom="2.9960938"
-     inkscape:cx="128.33377"
-     inkscape:cy="128"
+     inkscape:zoom="2.1185582"
+     inkscape:cx="62.542534"
+     inkscape:cy="190.93173"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     borderlayer="false"
+     showguides="false" />
   <defs
      id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient920">
+      <stop
+         style="stop-color:#00bfff;stop-opacity:1;"
+         offset="0"
+         id="stop916" />
+      <stop
+         style="stop-color:#4b0082;stop-opacity:1"
+         offset="1"
+         id="stop918" />
+    </linearGradient>
     <rect
        x="17.516077"
        y="68.57358"
        width="486.72335"
        height="351.81228"
        id="rect9354" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient920"
+       id="linearGradient922"
+       x1="10.170736"
+       y1="10.000393"
+       x2="48.497749"
+       y2="73.850105"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1">
     <circle
-       style="fill:#00bfff;stroke-width:2.01003"
+       style="fill:url(#linearGradient922);stroke-width:2.01003;stroke:none;stroke-opacity:1;fill-opacity:1"
        id="path846"
        cx="33.866665"
        cy="33.866665"
@@ -62,8 +86,8 @@
        style="font-size:112px;line-height:1.25;font-family:Offside;-inkscape-font-specification:Offside;white-space:pre;shape-inside:url(#rect9354);fill:#f5f5f5"><tspan
          x="17.515625"
          y="171.49609"
-         id="tspan16813"><tspan
+         id="tspan7894"><tspan
            style="font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift"
-           id="tspan16811">rfap</tspan></tspan></text>
+           id="tspan7892">rfap</tspan></tspan></text>
   </g>
 </svg>
