@@ -56,11 +56,12 @@ For full overview, see [commands.md](./commands.md)
  - for YML metadata specification, see [metadata-example.yml](./metadata-example.yml)
  - in future, header and body sections will be encrypted (for now plain)
  - checksums are to be implemeted in a future release, as well
- - maximal length of the header section is each 8KB
- - maximal length of the body section is each 16MB
+ - maximal length of the header section is 8KB
+ - maximal length of the body section is 16MB
    - bigger files are split over multiple packets
    - in this case all packet bodies can be just merged together in that order
    - an entry in the YML metadata indicates this to the client
+   - in the case of splitting, **every** packet's header is 8KB and body 16MB
 
 # Versioning
 
