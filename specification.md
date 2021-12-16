@@ -37,16 +37,16 @@ For full overview, see [commands.md](./commands.md)
 
 ## Overview
 
-| Section       | Field           | Length   | Value   | Description     |
-|---------------|-----------------|----------|---------|-----------------|
-| version       | -               | 2        | integer | rfap version    |
-| header_length | -               | 4        | integer | header length   |
-| header        | command         | 4        | integer | type of packet  |
-| header        | metadata        | variable | string  | YML metadata    |
-| header        | header_checksum | 32       | bytes   | header checksum |
-| body_length   | -               | 4        | integer | body length     |
-| body          | body            | variable | bytes   | packet body     |
-| body          | body_checksum   | 32       | bytes   | body checksum   |
+| Section       | Field           | Length            | Value   | Description     |
+|---------------|-----------------|-------------------|---------|-----------------|
+| version       | -               | 2                 | integer | rfap version    |
+| header_length | -               | 4                 | integer | header length   |
+| header        | command         | 4                 | integer | type of packet  |
+| header        | metadata        | variable, max 8KB | string  | YML metadata    |
+| header        | header_checksum | 32                | bytes   | header checksum |
+| body_length   | -               | 4                 | integer | body length     |
+| body          | body            | variable, max 4GB | bytes   | packet body     |
+| body          | body_checksum   | 32                | bytes   | body checksum   |
 
 ### Notes
 
@@ -57,11 +57,7 @@ For full overview, see [commands.md](./commands.md)
  - in future, header and body sections will be encrypted (for now plain)
  - checksums are to be implemeted in a future release, as well
  - maximal length of the header section is 8KB
- - maximal length of the body section is 16MB
-   - bigger files are split over multiple packets
-   - in this case all packet bodies can be just merged together in that order
-   - an entry in the YML metadata indicates this to the client
-   - in the case of splitting, **every** packet's header is 8KB and body 16MB
+ - for now, body length is limited to 4GB
 
 # Versioning
 
