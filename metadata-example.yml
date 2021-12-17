@@ -13,6 +13,7 @@ RequestDetails: [DirectorySize, ElementsNumber]
 Path: /folder/file.txt
 Type: f # f=file, d=directory
 Modified: 1638014200 # in unixtime
+Destination: /folder/file2.txt # where to copy/move file to
 
 # files only
 FileSize: 8257 # in bytes
