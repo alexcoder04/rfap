@@ -37,6 +37,7 @@ For full overview, see [commands.md](./commands.md)
 | version       | -               | 2                 | integer | rfap version    |
 | header_length | -               | 4                 | integer | header length   |
 | header        | command         | 4                 | integer | type of packet  |
+| header        | error_code      | 4                 | integer | error code      |
 | header        | metadata        | variable, max 8KB | string  | YML metadata    |
 | header        | header_checksum | 32                | bytes   | header checksum |
 | body_length   | -               | 4                 | integer | body length     |
@@ -48,9 +49,9 @@ For full overview, see [commands.md](./commands.md)
  - length is given in bytes
  - all integers are sent big-endian
  - all strings are encoded in UTF-8
+ - for error codes, see [errors.md](./errors.md)
  - for YML metadata specification, see [metadata-example.yml](./metadata-example.yml)
  - in future, header and body sections will be encrypted (for now plain)
- - checksums are to be implemeted in a future release, as well
  - maximal length of the header section is 8KB
  - for now, body length is limited to 4GB
 
