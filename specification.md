@@ -18,17 +18,12 @@
 
 For full overview, see [commands.md](./commands.md)
 
-## Basic
-
- - read file/directory
- - get file/directory information
  - ping (connection is alive)
  - disconnect
-
-## Optional (for now)
-
+ - read file/directory
+ - get file/directory information
  - write file
- - touch/create file
+ - create file/directory
  - delete file/directory
  - copy file/directory
  - move file/directory
