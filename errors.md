@@ -10,4 +10,5 @@
 | 00 00 00 04 | invalid_file_type      |
 | 00 00 00 05 | access denied          |
 | 00 00 00 06 | invalid content length |
+| 00 00 00 07 | file exists            |
 
