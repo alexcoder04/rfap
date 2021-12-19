@@ -1,14 +1,14 @@
 
-# List of error codes
+# List of error codes which can be sent in the YAML header
 
-| code (hex)  | name                   |
-|-------------|------------------------|
-| 00 00 00 00 | ok                     |
-| 00 00 00 01 | file_not_exists        |
-| 00 00 00 02 | unknown                |
-| 00 00 00 03 | invalid_command        |
-| 00 00 00 04 | invalid_file_type      |
-| 00 00 00 05 | access denied          |
-| 00 00 00 06 | invalid content length |
-| 00 00 00 07 | file exists            |
+| code | description            |
+|------|------------------------|
+| 0    | ok                     |
+| 1    | file_not_exists        |
+| 2    | unknown                |
+| 3    | invalid_command        |
+| 4    | invalid_file_type      |
+| 5    | access denied          |
+| 6    | invalid content length |
+| 7    | file_exists            |
 
