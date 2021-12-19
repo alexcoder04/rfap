@@ -10,4 +10,5 @@
 | 4    | invalid_file_type      |
 | 5    | access denied          |
 | 6    | invalid content length |
+| 7    | file_exists            |
 

@@ -18,17 +18,12 @@
 
 For full overview, see [commands.md](./commands.md)
 
-## Basic
-
- - read file/directory
- - get file/directory information
  - ping (connection is alive)
  - disconnect
-
-## Optional (for now)
-
+ - read file/directory
+ - get file/directory information
  - write file
- - touch/create file
+ - create file/directory
  - delete file/directory
  - copy file/directory
  - move file/directory
@@ -55,7 +50,9 @@ For full overview, see [commands.md](./commands.md)
  - all strings are encoded in UTF-8
  - for YML metadata specification, see [metadata-example.yml](./metadata-example.yml)
  - in future, header and body sections will be encrypted (for now plain)
- - checksums are to be implemeted in a future release, as well
+ - the checksum is a SHA256 hash
+   - of `command+metadata` for the header section
+   - of the body for the body section
  - maximal length of the header section is 8KB
  - for now, body length is limited to 4GB
 
