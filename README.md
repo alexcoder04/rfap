@@ -1,5 +1,5 @@
 <div align="center">
- <img src="./assets/rfap_icon_v1.svg" width="20%" height="auto">
+  <img src="./assets/rfap_icon_v1.svg" width="20%" height="auto">
 </div>
 <h1 align="center">Reliable File Access Protocol</h1>
 
@@ -17,8 +17,6 @@ organizational information and general discussions about the protocol. See
 - for a full overview of error codes, see [errors.md](./errors.md)
 
 ## Related projects (in progress)
-
-Note: none of these projects has reached a stable release so far.
 
  - https://github.com/alexcoder04/rfap-go-server - reference server implementation
  - https://github.com/alexcoder04/librfap - Python library

@@ -11,4 +11,5 @@
 | 5    | access denied          |
 | 6    | invalid content length |
 | 7    | file_exists            |
+| 8    | error_while_stat       |
 
