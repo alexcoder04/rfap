@@ -1,5 +1,5 @@
 
-First of all, we really appreciate your interest in our project!
+First of all, we really appreciate your interest in our project 😀!
 
 This project is started and maintained by
 [@alexcoder04](https://github.com/alexcoder04) and
@@ -16,7 +16,7 @@ if you find something that could be improved, fixed or added.
 
 ## Implementations in different languages
 
-You can also find this list in the [README](./README.md).
+You can also find this list in the [README](./README.md#related-projects-in-progress).
 
 ### Official
 
@@ -24,14 +24,15 @@ These are projects maintained by our core team:
 
  - https://github.com/alexcoder04/rfap-go-server - reference server implementation
  - https://github.com/alexcoder04/librfap - Python library
- - https://github.com/BoettcherDasOriginal/rfap-cs-lib - C# library
+ - https://github.com/BoettcherDasOriginal/rfap-cs-lib - C# library (in progress)
  - https://github.com/alexcoder04/rfap-pycli - Python CLI client based on librfap
+ - https://github.com/alexcoder04/rfap-fuse - FUSE implementation in Python based on librfap (in progress)
 
 ### Community
 
 These are maintained by other people:
 
- - https://github.com/Redstonerayy/rfap-js-lib - Javascript library
+ - https://github.com/Redstonerayy/rfap-js-lib - Javascript library (in progress)
 
 Your favourite language is not here and you want to add support for it? No
 problem, we try to keep the protocol open and well-documented, so anyone can

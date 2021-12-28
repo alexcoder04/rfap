@@ -22,6 +22,7 @@ organizational information and general discussions about the protocol. See
  - https://github.com/alexcoder04/librfap - Python library
  - https://github.com/BoettcherDasOriginal/rfap-cs-lib - C# library
  - https://github.com/alexcoder04/rfap-pycli - Python CLI client based on librfap
+ - https://github.com/alexcoder04/rfap-fuse - FUSE implementation in Python based on librfap
 
 ## Contributing
 
