@@ -1,13 +1,14 @@
 
 # YML header metadata example
 # this file contains all possible fields which can be contradictory, so not a real-world example
+# for additional information, see metadata-info.md
 
 # errors
 ErrorCode: 0 # see errors.md
 ErrorMessage: File or folder does not exist
 
 # client requests
-RequestDetails: [DirectorySize, ElementsNumber]
+RequestDetails: [DirectorySize, ElementsNumber] # only on directory_read/info, required
 
 # general
 Path: /folder/file.txt
