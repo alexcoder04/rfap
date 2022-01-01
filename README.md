@@ -11,10 +11,11 @@ organizational information and general discussions about the protocol. See
 
 ## Protocol specifications (in progress)
 
-- for general protocol specifications, see [specification.md](./specification.md)
-- for YML metadata specification, see [metadata-example.yml](./metadata-example.yml)
-- for a full overview of commands, see [commands.md](./commands.md)
-- for a full overview of error codes, see [errors.md](./errors.md)
+ - for general protocol specifications, see [specification.md](./specification.md)
+ - for YML metadata specification, see [metadata-example.yml](./metadata-example.yml)
+   and [metadata-info.md](./metadata-info.md)
+ - for a full overview of commands, see [commands.md](./commands.md)
+ - for a full overview of error codes, see [errors.md](./errors.md)
 
 ## Related projects (in progress)
 
@@ -26,7 +27,8 @@ organizational information and general discussions about the protocol. See
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more information.
+Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more information if you are
+interested in contributing to this project.
 
 ## Why did we start this project?
 

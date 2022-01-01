@@ -6,9 +6,7 @@
    - server responds
    - example: "read file X" -> "content of X"
    - persistent connection, checking from time to time if client is alive
- - multithreaded/multiprocessed
-   - every connection runs on a separate thread/process
-   - max number of threads -> max number of connected clients
+ - the communication runs over TCP sockets
  - version as well as header and body length sent plain, everything else is encrypted
    - with own private key (authentication)
    - with recipient's public key (privacy)
@@ -16,21 +14,9 @@
 
 # Commands
 
-For full overview, see [commands.md](./commands.md)
-
- - ping (connection is alive)
- - disconnect
- - read file/directory
- - get file/directory information
- - write file
- - create file/directory
- - delete file/directory
- - copy file/directory
- - move file/directory
+For an overview of commands, please see [commands.md](./commands.md)
 
 # Packet standard
-
-## Overview
 
 | Section       | Field           | Length            | Value   | Description     |
 |---------------|-----------------|-------------------|---------|-----------------|
@@ -43,13 +29,13 @@ For full overview, see [commands.md](./commands.md)
 | body          | body            | variable, max 4GB | bytes   | packet body     |
 | body          | body_checksum   | 32                | bytes   | body checksum   |
 
-### Notes
+## Notes
 
  - length is given in bytes
  - all integers are sent big-endian
  - all strings are encoded in UTF-8
  - for YML metadata specification, see [metadata-example.yml](./metadata-example.yml)
- - in future, header and body sections will be encrypted (for now plain)
+ - the whole header section and the whole body section are encrypted
  - the checksum is a SHA256 hash
    - of `command+metadata` for the header section
    - of the body for the body section

@@ -18,6 +18,7 @@
 |------------|-------------|---------------------------------------------|
 | ping       | 00 00 00 00 | sign that connection is still alive         |
 | disconnect | 01 00 00 00 | disconnects a client                        |
+| pub_key    | 02 00 00 00 | exchange public keys                        |
 | info       | a0 01 00 00 | get file or directory info                  |
 | error      | ff ff ff ff | something went wrong (e.g. unknown command) |
 
