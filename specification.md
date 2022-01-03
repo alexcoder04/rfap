@@ -7,9 +7,7 @@
    - example: "read file X" -> "content of X"
    - persistent connection, checking from time to time if client is alive
  - the communication runs over TCP sockets
- - version as well as header and body length sent plain, everything else is encrypted
-   - with own private key (authentication)
-   - with recipient's public key (privacy)
+ - version as well as header and body length sent plain, everything else is encrypted and signed
  - default port: `6700`
 
 # Commands
@@ -36,6 +34,9 @@ For an overview of commands, please see [commands.md](./commands.md)
  - all strings are encoded in UTF-8
  - for YML metadata specification, see [metadata-example.yml](./metadata-example.yml)
  - the whole header section and the whole body section are encrypted
+   - PGP encryption is used for that
+   - the data is first encrypted using recipient's public key
+   - then it's signed with own private key
  - the checksum is a SHA256 hash
    - of `command+metadata` for the header section
    - of the body for the body section
